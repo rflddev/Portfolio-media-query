@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #0a192f;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container h1{
+    color: white;
+   font-size: 190px;
+}
+
+.container h2{
+    color: #009eff;
+    font-size: 190px;   
+}
+
+.container {
+    line-height: 0.75;
+}
+
+.container h3{
+    color: dimgray;
+    font-size: 50px;
+    padding-left: 11px;
+}
+
+img{
+    width: 40px;
+    height: 40px
+}
+
+a img:hover{
+    transform:scale(1.25,1.25) ;
+}
+
+a img:hover::after{
+    opacity: 1;
+}
+
+
+@media screen and (max-height:880px) and (max-width:1279px){
+ #container h1{
+    font-size: 09vh;
+    color: white;
+ }
+}
+
+@media screen and (max-height:880px) and (max-width:1279px){
+    #container h2{
+       font-size: 08vh;
+       color: #009eff;
+    }
+   }
+
+   @media screen and (max-height:880px) and (max-width:1279px){
+    #container h3{
+       font-size: 3vh;
+       color: dimgray;
+    }
+   }
+
+   @media screen and (max-height:880px) and (max-width:1279px){
+    #container{
+       line-height: 0.85;
+    }
+   }
